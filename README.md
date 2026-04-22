@@ -61,12 +61,6 @@ pip install GEOparse pandas numpy scipy scikit-learn matplotlib seaborn
 ```bash
 python pipeline.py
 ```
-
-**Or open the notebook:**
-```bash
-jupyter notebook gene_expression_demo.ipynb
-```
-
 The pipeline downloads data automatically on first run (~few minutes for large datasets). All outputs are saved to `results/`.
 
 **To use real mutation data from cBioPortal:**
